@@ -1,0 +1,111 @@
+/* Custom Styling for Testimonials Section */
+
+.testimonials-section {
+    background-color: #f8f9fa; /* Change the background color */
+    padding: 50px 0;
+    text-align: center;
+  
+  }
+  
+  .section-title {
+    margin-bottom: 30px;
+  }
+  /* Custom Styling for Testimonials Section */
+
+/* ... (previous styles) */
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+  background-color: #007bff; /* Change the background color for both indicators */
+  border: none;
+}
+
+.carousel-control-prev {
+  margin-left: -20px; /* Adjust the position if needed */
+}
+
+.carousel-control-next {
+  margin-right: -20px; /* Adjust the position if needed */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: white; /* Change the icon color */
+  border-radius: 50%;
+  color: #007bff; /* Change the icon color on hover */
+  transition: color 0.3s;
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  color: #ff9900; /* Change the icon color on hover */
+}
+
+  .carousel-indicators li {
+    background-color: #007bff;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #ff9900;
+  }
+  
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: box-shadow 0.3s;
+  }
+  
+  .testimonial:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .testimonial-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial h3 {
+    margin-top: 0;
+  }
+  
+  .title {
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .commendation {
+    margin-bottom: 15px;
+  }
+  
+  .social-media {
+    font-size: 24px;
+    display: none; /* Hide social icons by default */
+  }
+  
+  .testimonial:hover .social-media {
+    display: flex; /* Show social icons on hover */
+  }
+  
+  .social-media a {
+    color: #007bff;
+    margin: 0 5px;
+    transition: color 0.3s;
+  }
+  
+  .social-media a:hover {
+    color: #ff9900;
+  }
+  

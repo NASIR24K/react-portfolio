@@ -1,0 +1,70 @@
+/* SkillsSection.css */
+
+.skills-section {
+  padding: 20px; /* Add any container padding */
+}
+
+.elementor-progress-wrapper {
+  position: relative;
+  background-color: aliceblue; /* Fixed background color */
+  height: 40px;
+  /* Add spacing between progress bars */
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.elementor-progress-bar {
+  position: relative;
+  border-radius: 5px;
+  height: 30px; /* Adjust the height of the progress bar */
+  margin-bottom: 20px;
+  animation: progressAnimation 4s linear forwards; /* Start and stop the animation */
+}
+
+.elementor-progress-bar[data-bs-toggle="tooltip"] {
+  cursor: pointer; /* Show pointer cursor when hovering over the tooltip */
+  
+}
+
+.elementor-progress-bar::before {
+  content: "(PHP)";
+  position: absolute;
+  top: 0;
+  left: 0; /* Adjust the position from the left */
+  width: 100%;
+  height: 100%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+
+.elementor-progress-bar::after {
+  content: "85%";
+  position: absolute;
+  top: 50%;
+  right: -50px; /* Adjust the position from the right */
+  transform: translateY(-50%);
+  font-weight: bold;
+  visibility: hidden; /* Hide the tooltip by default */
+}
+
+.elementor-progress-bar:hover::after {
+  visibility: visible; /* Show the tooltip on hover */
+}
+
+/* Define the animation keyframes for the progress bar */
+@keyframes progressAnimation {
+  0% {
+    right: -50px;
+    opacity: 0;
+    width: 0;
+  }
+  85% {
+    right: -20px; /* Adjust the final position from the right */
+    opacity: 1;
+    width: 85%; /* Animate to 85% */
+  }
+  100% {
+    right: -20px; /* Adjust the final position from the right */
+    opacity: 1;
+    width: 85%; /* Stay at 85% */
+  }
+}

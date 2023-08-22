@@ -1,0 +1,53 @@
+/* Base styles for hero section */
+.hero-section {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/Images/images.jpeg');
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+   
+  }
+  
+  .hero-name {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .hero-tagline {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive styles for different screen sizes */
+  @media (max-width: 576px) {
+    /* Small devices (e.g., smartphones) */
+    .hero-name {
+      font-size: 2rem;
+    }
+  
+    .hero-tagline {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 992px) {
+    /* Medium devices (e.g., tablets) */
+    .hero-name {
+      font-size: 2.5rem;
+    }
+  
+    .hero-tagline {
+      font-size: 1.25rem;
+    }
+  }
+  

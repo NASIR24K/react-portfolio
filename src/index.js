@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+/*COnfiguration*/
+
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
+import "../node_modules/react-bootstrap/dist/react-bootstrap";
+
+AOS.init(); 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App /> 
   </React.StrictMode>
 );
 

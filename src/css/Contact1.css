@@ -1,0 +1,91 @@
+/* Contact.css */
+
+/* Centering content vertically and horizontally */
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .contact-container {
+    padding: 50px 15px; /* Added padding for responsiveness */
+  }
+  
+  .contact-card {
+    border: none;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .icons {
+    margin-top: 20px;
+    a {
+      color: #333;
+      font-size: 24px;
+      margin: 0 15px;
+    }
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+    a {
+      color: #333;
+      font-size: 24px;
+      margin: 0 10px;
+      border: 2px solid transparent;
+      border-radius: 50%;
+      padding: 8px;
+      transition: all 0.3s ease;
+    }
+    a:hover {
+      border-color: #007bff;
+      color: #007bff;
+    }
+  }
+  
+  .contact-form {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+  }
+  /* ... (keep the rest of the styles as in the previous example) ... */
+
+.google-map {
+    position: relative;
+    a {
+      display: block;
+      position: relative;
+    }
+  }
+  
+  .map-headline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 767px) {
+    .contact-container {
+      padding: 30px 15px; /* Adjusted padding for smaller screens */
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .contact-card {
+      margin-bottom: 20px; /* Added margin for spacing between columns */
+    }
+  }
+  

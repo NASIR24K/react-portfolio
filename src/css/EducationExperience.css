@@ -1,0 +1,47 @@
+/* EducationExperience.css */
+
+.edu-exp-section {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+  }
+  
+  .section-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .edu-exp-entry {
+    border: none;
+    box-shadow: 0 0 10px #ddd, 0 0 20px #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .duration {
+    font-weight: bold;
+  }
+  
+  .degree {
+    font-weight: bold;
+  }
+  
+  .location {
+    color: #777;
+  }
+  
+  .description {
+    margin-top: 10px;
+  }
+  
+  .job-title {
+    font-weight: bold;
+  }
+  
+  .company {
+    font-weight: bold;
+  }
+  
+  .experience-col .btn {
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,28 @@
+/* HeroSection.css */
+
+.hero-container {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.first-text {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.sec-text {
+  font-size: 36px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: showText 20s infinite linear;
+}
+
+@keyframes showText {
+  0%, 100% {
+    width: 0;
+  }
+  20%, 80% {
+    width: 100%;
+  }
+}

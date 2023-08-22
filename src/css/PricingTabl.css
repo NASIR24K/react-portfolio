@@ -1,0 +1,76 @@
+/* Pricing Table Container */
+.pricing-table {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    max-width: 800px;
+  }
+  
+  /* Plan Box */
+  .recommended {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Ribbon */
+
+  /* Plan Header */
+  .plan-header {
+    text-align: center;
+  }
+  
+  /* Icon */
+  .icon {
+    font-size: 36px;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+  }
+  
+  /* Tooltip Button */
+  .tooltip-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Tooltip Text */
+  .tooltip-text {
+    display: block;
+    font-size: 14px;
+    color: #999;
+  }
+  
+  /* Plan Features */
+  .plan-features {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .check-icon {
+    color: #4caf50;
+    margin-bottom: 5px;
+  }
+  
+  /* Signup Button */
+  .signup {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup:hover {
+    background-color: #45a049;
+  }
+  

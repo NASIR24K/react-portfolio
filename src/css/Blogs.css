@@ -1,0 +1,41 @@
+/* Custom Styling for Blog Section */
+
+.blog-section {
+    padding: 50px 0;
+    background-color: #ddd;
+  }
+  
+  .section-title {
+    text-align: center;
+  }
+  .card {
+    border: none;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    
+  }
+  
+  .card .card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  
+  @media (max-width: 768px) {
+    /* Small devices */
+    .card .card-img-top {
+      max-height: 150px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* Extra small devices */
+    .card .card-img-top {
+      max-height: 120px;
+    }
+  }
+  
