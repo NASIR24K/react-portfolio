@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import VideoItem from './Video'; // Import VideoItem from the appropriate location
 import Auto from './HomeAbout'; // Import AutoCounter from the appropriate location
+
+
 const videos = [
     {
       videoUrl: 'https://www.youtube.com/embed/VIDEO_ID_1',
@@ -33,6 +35,8 @@ const HomeAbout = ({ videoUrl, title }) => {
         {/* First Column */}
         <Col md={4} className="mb-4">
           <Auto fromValue={0} toValue={350} duration={2000} title="Happy Clients" />
+          <Auto fromValue={0} toValue={50} duration={2000} title="Happy Clients" />
+          <Auto fromValue={0} toValue={150} duration={2000} title="Happy Clients" />
         </Col>
         
         {/* Second Column */}

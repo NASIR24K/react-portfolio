@@ -7,19 +7,14 @@ import Testimonial from './Testimonial';
 import Portfolio from './Portfolio';
 import TextAnimation from './Animate'; 
 import VideoItem from './Video'; // Adjust the path based on your project structure
-import AutoCounter from './AutoCounter';
+
 import Auto from './HomeAuto';
-import HomeAbout from './Home';
+import HomeAbout from './HomeAbout';
 const videos = [
   {
     videoUrl: 'https://www.youtube.com/embed/VIDEO_ID_1',
     title: 'Video 1',
-  },
-  {
-    videoUrl: 'https://www.youtube.com/embed/VIDEO_ID_2',
-    title: 'Video 2',
-  },
-  // Add more video objects as needed
+  }    // Add more video objects as needed
 ];
 
 const Home = () => {
@@ -55,7 +50,9 @@ const Home = () => {
         <Auto fromValue={0} toValue={25} duration={1000} title="Years of Experience" />
       </Row>
     </Container>
-  
+  <Container fluid>
+    <HomeAbout />
+  </Container>
       <Portfolio />
       <Testimonial />
       <Contact />
