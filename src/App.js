@@ -19,6 +19,7 @@ import Footer from "./component/Footer";
 
 function App() {
   return (
+  
     <BrowserRouter>
     <div className="main-container" style={{ backgroundColor: "#ccc" }}>
         <>
@@ -53,7 +54,7 @@ function App() {
     <Footer />
     </div>
     </BrowserRouter>
- 
+
     
   );
 }
