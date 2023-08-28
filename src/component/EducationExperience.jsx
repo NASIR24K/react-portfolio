@@ -29,7 +29,7 @@ const EducationExperience = () => {
                 <div className="description">Sherpur Polytechnic Institute. It is a GOVERNMENT Technical and Vocational. This institute's EIIN number is 136071.</div>
               </div>
             </div>
-            <div className="edu-exp-entry mt-5">
+            <div className="edu-exp-entry">
               <div className="duration">2007 - 2012</div>
               <div className="info">
                 <div className="degree"></div>
